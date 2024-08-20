@@ -1,15 +1,15 @@
-###################################
-# # # # # DomainAdaptFTIR # # # # #
-###################################
+#################################
+# # # # # # AdaptFTIR # # # # # #
+#################################
 
 import numpy as np
 from typing import Union
 
-class DomainAdaptFTIR:
+class AdaptFTIR:
     def __init__(self, spectra: np.ndarray, subject_ids: np.array, calibration_set: np.ndarray, calibration_ids: np.array ,other_labels: Union[None, np.ndarray]=None, seed:int=0):
 
         '''
-        Initializes the DomainAdaptFTIR object with given parameters.
+        Initializes the AdaptFTIR class with given parameters.
         
         input:
         -----------
@@ -150,7 +150,7 @@ class DomainAdaptFTIR:
 
     def run(self, n_to_generate_per_id=1, return_type='augmentation', shuffle_output=False):
         np.random.seed(self.seed)
-        '''Executes the DomainAdaptFTIR process and returns the appropriate data based on return_type.'''
+        '''Executes the AdaptFTIR process and returns the appropriate data based on return_type.'''
 
         # return_type check
         if return_type not in ['augmentation', 'simulation']:
