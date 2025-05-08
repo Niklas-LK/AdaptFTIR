@@ -1,7 +1,7 @@
 # AdaptFTIR
 
 ## Description
-This repository contains a Python implementation of the AdaptFTIR method described in the paper entitled "**Title**" (doi url).
+This repository contains a Python implementation of the AdaptFTIR method described in the paper entitled "**Bridging Spectral Gaps: Cross-Device Model Generalization in Blood-Based Infrared Spectroscopy**" (https://doi.org/10.1021/acs.analchem.5c00185).
 
 ## Installation
 The package is available via PyPI:
@@ -26,4 +26,4 @@ X_gen, y_gen = AdaptFTIR.run(n_per_subject_id=<your_n_per_subject_id>)
 ```
 
 ## Citation
-> Citation goes here
+> F. Nemeth, N. Leopold-Kerschbaumer, D. Debreceni, F. Fleischmann, K. Borbely, D. Mazurencu-Marinescu-Pele, T. Bocklitz, M. Žigman, K. Kepesidis, Bridging Spectral Gaps: Cross-Device Model Generalization in Blood-Based Infrared Spectroscopy, Analytical Chemistry (2025). https://doi.org/10.1021/acs.analchem.5c00185
